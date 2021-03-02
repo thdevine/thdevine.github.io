@@ -1,0 +1,6 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+The fastest/safest way to communicate with me is to reach out over LinkedIn. 

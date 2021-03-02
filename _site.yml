@@ -1,0 +1,25 @@
+name: "Thomas H. Devine"
+output_dir:  "." 
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Data Science Projects"
+#      href: datascience.html
+     - text: "Training"
+#       href: training.html
+     - text: "Resume"
+#       href: Resume_Ryan_Bieber.docx
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contacts.html
+    - icon: fa-github fa-lg
+      href: https://github.com/thdevine
+    - icon: fa-linkedin fa-lg
+      href: www.linkedin.com/in/thdevine
+
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
