@@ -6,7 +6,6 @@ navbar:
       href: index.html
     - text: "Data Science Projects"
       href: datascience.html
-     - text: "Oops"
      - text: "Resume"
             href: tres.pdf
      - text: "Grad School"
