@@ -9,7 +9,7 @@ navbar:
      - text: "Oops"
      - text: "Resume"
             href: tres.pdf
-     - text: "Grad School Advice"
+     - text: "Grad School"
        href: gradschool.html
 
 
