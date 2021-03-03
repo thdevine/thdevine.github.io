@@ -5,11 +5,13 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Data Science Projects"
-#      href: datascience.html
-     - text: "Training"
-#       href: training.html
+      href: datascience.html
+     - text: "Oops"
      - text: "Resume"
-#       href: Resume_Ryan_Bieber.docx
+            href: tres.pdf
+     - text: "Grad School Advice"
+       href: gradschool.html
+
 
   right:
     - icon: fa-envelope fa-lg
