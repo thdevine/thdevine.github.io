@@ -323,17 +323,14 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-    <div id="data-science-projects-completed" class="section level2">
-    <h2>Projects Completed/Other</h2>
-    </div>
- <!--<div id="this-list-isnt-exhaustive-just-a-few-ones-i-picked-out." class="section level1">
- <ul>
-<li><p><a href="https://github.com/ryanbieber/Wow-Gold">World of Warcraft, Black Market Gold</a> The whole point of this project was to look at how patches impacted gold prices in world of warcraft. It evolved into trying to predict when to <em>buy gold</em> in the mmo to try and play the market just like in the stock market. It turns out that gold prices are very unpredictable and follow a more or less stochastic trend. (One of my first projects)</p></li>
-<li><p><a href="https://github.com/ryanbieber/NLP">Twitter NLP</a> This was brought about by being interested in seeing if we could predict the stock market based on twitter sentiment. using <a href="https://cran.r-project.org/web/packages/sentimentr/sentimentr.pdf">sentimentr</a> we are able to determine the sentiment of string of texts. Using this, we are able to get a time-series of someones sentiment. Long story short, it didn’t work out as I wanted it to but, it is pretty cool to see someones sentiment over time using their twitter data.</p></li>
-<li><p><a href="https://github.com/ryanbieber/deploying-plumber-ibm-cloud">Deploying plumber in the IBM Cloud</a> This was more of a learning experience with understanding how a full-stack web application works with R. Also, connecting to a DB2 from a container is somewhat annoying if you have to use that dbms.</p></li>
-<li><p><a href="https://github.com/ryanbieber/Example-Docker-Repo">Modelling application template</a> Here is a repo that you can clone or fork and use it as a base for a modeling application. The dockerfile is already built and it is a plug and play solution as well as cloud agnostic.</p></li>
-<li><p><a href="https://github.com/ryanbieber/model-deployment-kubernetes">Cloud Deployment Modelling Orchestration</a> I wanted to have the ability to work in whatever language I wanted so I created a sort of container orchestration template that has 3 separate containers that can run whatever images I want them to. These images can then push their data to a volume which is mounted on each container. This allows for maximum flexibility for using the best language for each job.</p></li>
-</ul> -->
+                   <!--<div id="this-list-isnt-exhaustive-just-a-few-ones-i-picked-out." class="section level1">
+                   <ul>
+                  <li><p><a href="https://github.com/ryanbieber/Wow-Gold">World of Warcraft, Black Market Gold</a> The whole point of this project was to look at how patches impacted gold prices in world of warcraft. It evolved into trying to predict when to <em>buy gold</em> in the mmo to try and play the market just like in the stock market. It turns out that gold prices are very unpredictable and follow a more or less stochastic trend. (One of my first projects)</p></li>
+                  <li><p><a href="https://github.com/ryanbieber/NLP">Twitter NLP</a> This was brought about by being interested in seeing if we could predict the stock market based on twitter sentiment. using <a href="https://cran.r-project.org/web/packages/sentimentr/sentimentr.pdf">sentimentr</a> we are able to determine the sentiment of string of texts. Using this, we are able to get a time-series of someones sentiment. Long story short, it didn’t work out as I wanted it to but, it is pretty cool to see someones sentiment over time using their twitter data.</p></li>
+                  <li><p><a href="https://github.com/ryanbieber/deploying-plumber-ibm-cloud">Deploying plumber in the IBM Cloud</a> This was more of a learning experience with understanding how a full-stack web application works with R. Also, connecting to a DB2 from a container is somewhat annoying if you have to use that dbms.</p></li>
+                  <li><p><a href="https://github.com/ryanbieber/Example-Docker-Repo">Modelling application template</a> Here is a repo that you can clone or fork and use it as a base for a modeling application. The dockerfile is already built and it is a plug and play solution as well as cloud agnostic.</p></li>
+                  <li><p><a href="https://github.com/ryanbieber/model-deployment-kubernetes">Cloud Deployment Modelling Orchestration</a> I wanted to have the ability to work in whatever language I wanted so I created a sort of container orchestration template that has 3 separate containers that can run whatever images I want them to. These images can then push their data to a volume which is mounted on each container. This allows for maximum flexibility for using the best language for each job.</p></li>
+                  </ul> -->
    <!-- ..................................................................................................................................  -->
      <div id="Projects-in-progress" class="section level2">
       <h2> Projects in progress/works</h2>
@@ -351,17 +348,23 @@ $(document).ready(function () {
         </ul>
       </div>
    
-      <div id="mastersthesis" class="section level2">
-        <h3>Summer Paper (equivalent to a Master's thesis), Summer 2020 </h3>
-        <ul>
-          Seen here: <a href="https://www.overleaf.com/read/wdkmbxgfyxqf">Overleaf link to the work with R code in the appendix</a>. In spite of the fact I was unable to replicate the exact data set of BG2012, following the exact procedure outlined by BG2012, I marched on to get a rough idea of the dynamics at hand in the solar panel market in California between 2001 and 2011. 
-          </ul>
-        
-        <h3>Summer Undergraduate Applied Mathematics Institute (an REU), Summer 2017 </h3>
-          <ul> 
-            Using R and Python, my team web-scraped put option prices into a gradient descent algorithm for chosen stocks on the DJIA and compared the efficiency of random sets of stocks to calculate error (SSE). The code associated with <a href="https://github.com/thdevine/SUAMI-REU-2017"> this work can be seen here </a>.
+
+      <div id="data-science-projects-completed" class="section level2">
+        <h2>Projects Completed/Other</h2>
+          <div id="mastersthesis" class="section level2">
+            <h3>Summer Paper (equivalent to a Master's thesis), Summer 2020 </h3>
+            <ul>
+              Seen here: <a href="https://www.overleaf.com/read/wdkmbxgfyxqf">Overleaf link to the work with R code in the appendix</a>. In spite of the fact I was unable to replicate the exact data set of BG2012, following the exact procedure outlined by BG2012, I marched on to get a rough idea of the dynamics at hand in the solar panel market in California between 2001 and 2011. 
             </ul>
       </div>
+      <div id="suami-reu" class="section level2">
+        <h3>Summer Undergraduate Applied Mathematics Institute (an REU), Summer 2017 </h3>
+          <ul> 
+            Using R and Python, my team web-scraped put option prices into a gradient descent algorithm for chosen stocks on the DJIA and compared 
+            the efficiency of random sets of stocks to calculate error (SSE). The code associated with <a href="https://github.com/thdevine/SUAMI-REU-2017"> this work can be seen here </a>.
+          </ul>
+      </div>
+    </div>
 <!-- </div> -->
 
 <!-- ..................................................................................................................................  --> 
