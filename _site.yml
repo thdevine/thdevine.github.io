@@ -4,7 +4,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Data Science Projects"
+    - text: "Data Science / Projects"
       href: datascience.html
     - text: "Grad School"
        href: gradschool.html
